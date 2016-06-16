@@ -39,3 +39,16 @@ get '/upcase' do
   @data = address.postcode_upcase
   return @data.to_json()
 end
+
+get '/camel/:word' do
+  words = wordformatter
+
+
+
+
+
+
+
+
+
+

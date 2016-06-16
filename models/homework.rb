@@ -14,4 +14,6 @@ class WordFormatter
     return @address + " " + @building + " " + @postcode.upcase + " " + @phone
   end
 
+
+
 end
